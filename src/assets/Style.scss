@@ -1,0 +1,375 @@
+.form-control {
+    background-color: #F2F2F2 !important;
+    border: 0px !important;
+    border-radius: 7px;
+    font-family: "Raleway-Regular";
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 12px;
+}
+
+.form-control:focus {
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: 0 0 0 .0rem transparent !important;
+}
+
+.btn-primary {
+    border-color: transparent !important;
+
+}
+
+.ContainerLogin {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 335px;
+    width: 334px;
+    margin: auto;
+}
+
+.InpuLogin {
+    border-radius: 7px;
+    width: 270px !important;
+    height: 40px;
+    margin-left: 32px;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.btn_CreeUnCompte_OrganismLogin {
+    margin-top: 8px;
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    color: #E57022 !important;
+    width: 270px;
+    height: 40px;
+    margin-left: 32px;
+    font-weight: 600;
+    font-size: 14px
+}
+
+.Title_Login {
+    text-align: center;
+    font-size: 24px;
+    color: #00D98B;
+    padding-top: 32px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.TemplateLogin {
+    align-self: center;
+}
+
+.scale-in-center {
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.btn_Login {
+    background: #00D98B !important;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    width: 270px;
+    height: 40px;
+    margin-left: 32px;
+    font-size: 14px;
+    color: #FFFFFF !important;
+    margin-top: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn_Cretae_Acompte {
+    margin-top: 8px;
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    color: #00D98B !important;
+    width: 270px;
+    height: 40px;
+    margin-left: 32px;
+    font-weight: 600;
+    font-size: 14px
+}
+
+.ListContact {
+    height: 90vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.Msg {
+    padding: 12px;
+    height: 78px;
+    display: flex;
+    cursor: pointer;
+}
+
+.MsgSelected {
+    padding: 12px;
+    height: 78px;
+    display: flex;
+    background-color: #00D98B;
+    cursor: pointer;
+}
+
+
+.NameContact {
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.LastMsg {
+    color: black;
+    font-weight: 600;
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+
+.RowTitleDusscusion {
+    min-width: 100%;
+    background-color: #e7c3c3;
+    height: 48px;
+    padding: 12px;
+}
+
+.TitleDusscusion {
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+
+.ContentMsg {
+    //height: 80vh !important;
+    overflow: auto;
+    position: relative;
+}
+
+.AllMessageContent {
+    height: 80% !important;
+    width: 100%;
+    background-color: #F8F8F8;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.InputSearchMsg {
+    border-radius: 7px;
+    width: 100% !important;
+    height: 40px;
+    font-size: 14px
+}
+
+.Col_ListContact {
+    height: 100vh;
+    border-right: 1px solid #CCCCCC;
+    position: relative;
+}
+
+.HourLastMsg {
+    margin-top: 16px;
+    color: black;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.RowTitleContactMsg {
+    min-height: 50px;
+    max-height: 10vh;
+    width: 100%;
+    padding: 12px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.TitleContactMsg {
+    margin-left: 24px;
+    margin-top: 24px;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    color: #00D98B !important;
+}
+
+.Row_React_Bootstrap {
+    padding: 0px !important;
+    margin: 0px !important;
+
+}
+
+.RowinputSendtMsg {
+    width: 100%;
+    height: 10vh;
+   // margin-top: 10px;
+}
+
+.ImgContact {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.InputsendMsg {
+    border-radius: 7px;
+    font-size: 14px;
+    height: 10vh !important;
+}
+
+.ImgMsgContact {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 20px !important;
+    margin-bottom: 20px;
+}
+
+
+.IconNewMsg {
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.LoginTemplate_Container {
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.MessageDate {
+    width: 95px;
+    height: 24px;
+    color: black;
+    font-weight: 400;
+    font-size: 10px;
+    padding: 4px;
+    //display: flex;
+    visibility: hidden;
+    position: absolute;
+    top: -10px;
+    left: 45px;
+}
+
+.Message-Col {
+    position: relative;
+}
+
+.Message-Col:hover .MessageDate {
+    visibility: visible;
+}
+
+.chat-bubble {
+    padding: 10px 14px;
+    background: #eee;
+    margin: 10px 30px;
+    border-radius: 9px;
+    position: relative;
+    animation: fadeIn 1s ease-in;
+
+    // width: 200px;
+    &:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        width: 0;
+        height: 0;
+        border: 20px solid transparent;
+        border-bottom: 0;
+        margin-top: -10px;
+    }
+
+    &--left {
+        &:after {
+            left: 0;
+            border-right-color: #eee;
+            border-left: 0;
+            margin-left: -20px;
+        }
+    }
+
+    &--right {
+        &:after {
+            right: 0;
+            border-left-color: #00D98B;
+            border-right: 0;
+            margin-right: -20px;
+        }
+    }
+}
+
+.Row_Add_New_Conversation {
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 8px;
+    border-top: 1px solid #eee;
+    color: #00D98B !important;
+}
+
+.div_write_msg {
+    position: absolute;
+    bottom: 35px;
+    left: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: 10px;
+}
+
+.on_write_msg {
+    border-radius: 10px;
+    background: #eee;
+    font-weight: 500;
+    font-size: 10px;
+    height: 24px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 4px;
+}
